@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to main)
+media_folder: 'app/images'
+public_folder: '/'
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'app/posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - label: 'Date'
+        name: 'date'
+        widget: datetime
+        format: 'yyyy-MM-dd'
+        time_format: false
