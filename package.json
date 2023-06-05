@@ -14,10 +14,7 @@
     "start": "eleventy --serve --quiet",
     "preserve": "npm run build",
     "serve": "http-server",
-    "test": "standard",
-    "build:sass:prod": "sass src/static/scss:public/static/css --style compressed",
-    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
-    "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
+    "test": "standard"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
