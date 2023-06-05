@@ -6,9 +6,10 @@ module.exports = function (eleventyConfig) {
       '/styles/application.css'
     ],
     headingPermalinks: true,
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
     header: {
       organisationLogo: false,
-      productName: 'Design history',
+      productName: 'Prototype Kit Design history',
       search: {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'
