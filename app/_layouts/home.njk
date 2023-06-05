@@ -1,5 +1,10 @@
 {% extends "layouts/product.njk" %}
 
+{% block head %}
+{{ super() }}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{% endblock %}
+
 {% block content %}
   {{ content }}
   <div class="govuk-grid-row">
@@ -42,4 +47,18 @@
       {% endfor %}
     {% endif %}
   </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', user => {
+      if (!user) {
+        window.netlifyIdentity.on('login', () => {
+          document.location.href = '/admin/';
+        });
+      }
+    });
+  }
+</script>
 {% endblock %}

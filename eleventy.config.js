@@ -19,6 +19,7 @@ module.exports = function (eleventyConfig) {
 
   // Passthrough
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
+  eleventyConfig.addPassthroughCopy({ './admin': './admin' })
 
   // Config
   return {
