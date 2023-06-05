@@ -12,6 +12,19 @@ collections:
     fields:
       - label: 'Date'
         name: 'date'
-        widget: datetime
+        widget: 'datetime'
         format: 'yyyy-MM-dd'
         time_format: false
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Author'
+        name: 'author'
+        widget: 'string'
+      - label: 'Short description'
+        name: 'description'
+        widget: 'text'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+
