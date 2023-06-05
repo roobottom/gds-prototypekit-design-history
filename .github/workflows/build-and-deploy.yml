@@ -19,13 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-
-      - name: Install packages
-        run: npm ci
-
-      - name: Run npm build
-        run: npm run build
+      - run: npm ci
+      - run: npm run build
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
