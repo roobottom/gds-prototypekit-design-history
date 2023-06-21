@@ -1,6 +1,6 @@
 ---
 date: 2023-06-21
-title: How the Kit is accessible for all
+title: Ensuring the Kit is accessible for all
 author: Alina Graham
 description: "How user testing with disabled users showed that the Kit was
   accessible to all, as well as identifying some ways we can improve it "
