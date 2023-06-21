@@ -6,10 +6,17 @@
     "templateContent": "over last weeks changed our focus from technical solutions user needs this that can understand different users identify how service benefits each make improved centred decisions speaking with recently conducted one interviews observation sessions spoke five never used kit before two noivice who rated themselves minial experience had version 13 approach when researching people using first time particularly those are coding team know enough about these interactions tested tutorial more new pain points find opportunities improvement general heard really liked however discovered there dip satisisfaction specifically around installation understaning relevant software like node moves along journey they rapidly build confidence satisfaction start see changes made their prototype",
     "url": "/new-users/"
   },  {
+    "title": "How the Kit is accessible for all",
+"description": "How user testing with disabled users showed that the Kit was accessible to all, as well as identifying some ways we can improve it ","section": "Home",    "layout": "post",
+    "hasFrontmatterDate": true,
+    "date": "21 June 2023",
+    "templateContent": "our goal this sprint understand more about how accessible kit identify pain points find opportunities improvement testing with assistive technology conducted one interviews obrsatio sessions spoke 3 visually impaired users 2 neurodiverse external auditor were all using access jaws nvda zoomtext prior user interaction designer had also already internal wcag audit from over 12 hours collated 87 key quotes 183 observations which gave us many ways can improve however importantly there blockers found could create prototype considering screen readers magnification software significant achievement showed that feedback recieved positive around ease use tutorials templates well comments improves productivity good platform improvements certain aspects been passed content who will working through these changes most them minor wording layout screens",
+    "url": "/how-the-kit-is-accessible-for-all/"
+  },  {
     "title": "A design history for GOV.UK Prototype Kit",
 "description": "A record of how we have developed our service.",    "layout": "home",
     "hasFrontmatterDate": false,
-    "date": "7 June 2023",
+    "date": "21 June 2023",
     "templateContent": "",
     "url": "/"
   }]
